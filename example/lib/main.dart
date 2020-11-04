@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-10-13 17:06:06
+ * @LastEditTime: 2020-10-26 16:36:35
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /flutter_weex/example/lib/main.dart
+ */
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter_weex/weex_view.dart';
@@ -26,10 +34,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Center(
+        body: Container(
           child: WeexView()
         ),
       ),
