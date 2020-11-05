@@ -139,7 +139,7 @@
     }
     
     _instance = [[WXSDKInstance alloc] init];
-    _instance.frame = CGRectMake(0.0f, safeHeight, self.view.bounds.size.width, self.view.bounds.size.height-safeHeight-safebottom);
+//    _instance.frame = CGRectMake(0.0f, safeHeight, self.view.bounds.size.width, self.view.bounds.size.height-safeHeight-safebottom);
     _instance.pageObject = self;
     _instance.pageName = sourceURL.absoluteString;
     _instance.viewController = self;
