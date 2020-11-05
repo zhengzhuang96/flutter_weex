@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WeexSDK/WeexSDK.h>
 #import "WXSDKInstance.h"
 
 @interface NXPBaseViewController : UIViewController<UIGestureRecognizerDelegate>
